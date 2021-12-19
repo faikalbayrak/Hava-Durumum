@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Hava Durumum",
+    "slug": "Hava-Durumum",
+    "version": "1.0.6",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config":{
+        "googleMobileAdsAppId":"ca-app-pub-5831767362421175~7463492868"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config":{
+        "googleMobileAdsAppId":"ca-app-pub-5831767362421175~7463492868"
+      },
+      "package": "com.HavaDurumum",
+      "versionCode": 1,
+      "permissions":["LOCATION"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
